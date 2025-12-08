@@ -3,7 +3,7 @@ import socket
 import threading
 import sys
 
-
+#initialises the variables for 1,host 2,port 3,socket 4,client(that stores clients info as dictionary format)
 class ChatServer:
     def __init__(self, host='0.0.0.0', port=12345):
         self.host = host
@@ -15,7 +15,7 @@ class ChatServer:
         self.server_sock.setblocking(True)
         self.clients = {}  # sock -> {'thread': t, 'addr': addr, 'username': name}
         self.lock = threading.Lock()
-
+#this
     def start(self):
         print(f'Listening on {(self.host, self.port)}')
         try:
