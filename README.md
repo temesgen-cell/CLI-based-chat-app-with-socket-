@@ -3,9 +3,9 @@
 
 A simple, real-time, command-line interface (CLI) chat application built using Python's native socket library. This project serves as a foundational exercise in network programming, demonstrating basic client-server architecture, concurrent connection handling, and TCP communication.
 
-## Features
+### Features
 
-     * Client-Server Architecture * : Utilizes a dedicated server to relay messages between connected clients.
+     *Client-Server Architecture* : Utilizes a dedicated server to relay messages between connected clients.
 
     * Real-time Messaging *: Messages are broadcast to all connected users instantly.
 
