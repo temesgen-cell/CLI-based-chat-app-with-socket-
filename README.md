@@ -5,15 +5,15 @@ A simple, real-time, command-line interface (CLI) chat application built using P
 
 ## Features
 
-    - * Client-Server Architecture * : Utilizes a dedicated server to relay messages between connected clients.
+     * Client-Server Architecture * : Utilizes a dedicated server to relay messages between connected clients.
 
-    - * Real-time Messaging *: Messages are broadcast to all connected users instantly.
+    * Real-time Messaging *: Messages are broadcast to all connected users instantly.
 
-    - * Multi-Client Support * : The server handles concurrent connections using Python's [threading / asyncio] module.
+    * Multi-Client Support * : The server handles concurrent connections using Python's [threading / asyncio] module.
 
-    - * Simple CLI Interface *: Clean, straightforward interface for chatting.
+    * Simple CLI Interface *: Clean, straightforward interface for chatting.
 
-    - * Customizable *: Easy to extend with new commands or features.
+    * Customizable *: Easy to extend with new commands or features.
 
 
 
